@@ -169,7 +169,7 @@ set_speaker_light_locked(struct light_device_t* dev,
     ALOGV("set_speaker_light_locked mode %d, colorRGB=%08X, onMS=%d, offMS=%d\n",
             state->flashMode, colorRGB, onMS, offMS);
 
-    red = (colorRGB >> 16) & 0xFF;
+    red = rgb_to_brightness(state);
 
     blink = onMS > 0 && offMS > 0;
 
