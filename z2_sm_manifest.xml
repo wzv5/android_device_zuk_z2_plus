@@ -16,6 +16,6 @@
   <project name="sudamod/android_vendor_extra-1" path="vendor/extra" remote="github" revision="cm-14.1-rootless"/>
   <project name="substratum/interfacer" path="packages/services/ThemeInterfacer" remote="github" revision="n-rootless"/>
 
-  <remove-project name="packages/apps/CMUpdater"/>
+  <remove-project name="SudaMod/android_packages_apps_CMUpdater"/>
 
 </manifest>
