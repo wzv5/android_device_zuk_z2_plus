@@ -12,8 +12,10 @@
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github"/>
 
   <project path="prebuilts/snapdragon/llvm-3.8" name="MoKee/android_prebuilts_snapdragon_llvm-3.8" clone-depth="1" remote="github" revision="mkn-mr1"/>
-<!--
-  <project name="sudamod/android_vendor_extra-1" path="vendor/extra" remote="github" revision="cm-14.1-rootless" />
-  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
--->
+
+  <project name="sudamod/android_vendor_extra-1" path="vendor/extra" remote="github" revision="cm-14.1-rootless"/>
+  <project name="substratum/interfacer" path="packages/services/ThemeInterfacer" remote="github" revision="n-rootless"/>
+
+  <remove-project name="packages/apps/CMUpdater"/>
+
 </manifest>
