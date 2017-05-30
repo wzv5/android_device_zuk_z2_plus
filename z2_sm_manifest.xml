@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="ontherunvaro" fetch="https://github.com/ontherunvaro/" revision="cm-14.1"/>
-  <remote name="wzv5" fetch="https://github.com/wzv5/" revision="cm-14.1"/>
+  <remote name="wzv5" fetch="https://github.com/wzv5/" revision="sm-3.1"/>
 
   <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="wzv5"/>
   <project path="vendor/zuk/z2_plus" name="proprietary_vendor_zuk_z2_plus" remote="ontherunvaro"/>
