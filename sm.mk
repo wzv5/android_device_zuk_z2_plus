@@ -41,3 +41,13 @@ TARGET_VENDOR := zuk
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:6.0.1/MMB29M/1.9.077_160617:user/release-keys" \
     PRIVATE_BUILD_DESC="z2_plus-user 6.0.1 MMB29M 1.9.077_160617 release-keys"
+
+PRODUCT_PACKAGES += \
+    Launcher3
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/AMapNetworkLocation.apk:/system/priv-app/AMapNetworkLocation/AMapNetworkLocation.apk \
+    $(LOCAL_PATH)/prebuilt/Substratum.apk:/system/app/Substratum/Substratum.apk \
+    $(LOCAL_PATH)/prebuilt/Phonograph.apk:/system/app/Phonograph/Phonograph.apk \
+    $(LOCAL_PATH)/prebuilt/via.apk:/system/app/via/via.apk
+
