@@ -1237,3 +1237,8 @@ service seemp_healthd /system/vendor/bin/seemp_healthd
 # Slpi restart
 on property:slpi.restart=1
     write /sys/kernel/debug/msm_subsys/slpi restart
+
+service ifaadaemon /system/bin/ifaad
+    class late_start
+    user system
+    group system

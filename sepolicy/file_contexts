@@ -36,3 +36,6 @@
 
 # Timekeep
 /system/bin/timekeep                     u:object_r:timekeep_exec:s0
+
+# Alipay
+/system/bin/ifaad                       u:object_r:ifaadaemon_exec:s0
