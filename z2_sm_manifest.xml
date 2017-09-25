@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ontherunvaro" fetch="https://github.com/ontherunvaro/" revision="cm-14.1"/>
+  <remote name="z2-dev" fetch="https://github.com/z2-dev/" revision="cm-14.1"/>
   <remote name="wzv5" fetch="https://github.com/wzv5/" revision="work"/>
 
   <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="wzv5"/>
-  <project path="vendor/zuk/z2_plus" name="proprietary_vendor_zuk_z2_plus" remote="ontherunvaro"/>
-  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="ontherunvaro"/>
+  <project path="device/zuk/msm8996-common" name="android_device_zuk_msm8996-common" remote="wzv5"/>
+  <project path="vendor/zuk" name="proprietary_vendor_zuk" remote="z2-dev"/>
+  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="z2-dev"/>
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github"/>
@@ -20,6 +21,5 @@
   <remove-project name="SudaMod/android_packages_apps_CMUpdater"/>
   <remove-project name="SudaMod/android_packages_apps_Eleven"/>
   <remove-project name="LineageOS/android_packages_apps_Jelly"/>
-  <remove-project name="SudaMod/android_packages_apps_Trebuchet"/>
 
 </manifest>
