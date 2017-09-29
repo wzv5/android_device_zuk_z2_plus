@@ -23,7 +23,7 @@ AUDIO_FEATURE_ENABLED_SPKR_PROTECTION := true
 DEVICE_PATH := device/zuk/z2_plus
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := z2_plus
+TARGET_OTA_ASSERT_DEVICE := z2,Z2,z2plus,z2_plus
 
 # Kernel
 TARGET_KERNEL_CONFIG := z2_plus_defconfig
