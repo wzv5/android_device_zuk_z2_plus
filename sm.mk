@@ -48,4 +48,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/Phonograph.apk:/system/app/Phonograph/Phonograph.apk \
     $(LOCAL_PATH)/prebuilt/via.apk:/system/app/via/via.apk \
     $(LOCAL_PATH)/prebuilt/GoogleWallpaperPicker.apk:/system/app/GoogleWallpaperPicker/GoogleWallpaperPicker.apk \
-    $(LOCAL_PATH)/prebuilt/PixelLauncher.apk:/system/priv-app/PixelLauncher/PixelLauncher.apk
+    $(LOCAL_PATH)/prebuilt/PixelLauncher.apk:/system/priv-app/PixelLauncher/PixelLauncher.apk \
+    $(LOCAL_PATH)/prebuilt/FilesGo.apk:/system/app/FilesGo/FilesGo.apk
