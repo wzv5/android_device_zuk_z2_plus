@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_BRAND := ZUK
-PRODUCT_MODEL := Z2 Plus
+PRODUCT_MODEL := ZUK Z2131
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_GMS_CLIENTID_BASE := android-zuk
 TARGET_VENDOR_PRODUCT_NAME := z2_plus
