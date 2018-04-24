@@ -46,5 +46,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/AMapNetworkLocation.apk:/system/priv-app/AMapNetworkLocation/AMapNetworkLocation.apk \
     $(LOCAL_PATH)/prebuilt/Substratum.apk:/system/app/Substratum/Substratum.apk \
     $(LOCAL_PATH)/prebuilt/Phonograph.apk:/system/app/Phonograph/Phonograph.apk \
-    $(LOCAL_PATH)/prebuilt/via.apk:/system/app/via/via.apk \
-    $(LOCAL_PATH)/prebuilt/zhicode.apk:/system/app/zhicode/zhicode.apk
+    $(LOCAL_PATH)/prebuilt/via.apk:/system/app/via/via.apk
