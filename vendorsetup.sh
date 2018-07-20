@@ -1,2 +1,2 @@
-add_lunch_combo sm_z2_plus-userdebug
-add_lunch_combo sm_z2_plus-eng
+add_lunch_combo mk_z2_plus-userdebug
+add_lunch_combo mk_z2_plus-eng

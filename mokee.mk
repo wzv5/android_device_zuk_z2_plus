@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/zuk/z2_plus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/sm/config/common_full_phone.mk)
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := sm_z2_plus
+PRODUCT_NAME := mk_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_BRAND := ZUK
 PRODUCT_MODEL := ZUK Z2131
